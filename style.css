@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'poppins',sans-serif;
+}
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.main{
+    background-image: url("assests/img/bg.jpg");
+    height:644px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);/* for brtter responsive website*/
+    position:relative;
+
+}
+.main .box{
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+
+}
+nav{
+ max-width: 60vw;
+ margin:auto;/*it will automatically give marzin from left and right yeah because the size is 60vw so it gives 2vw from both sides*/
+ display:flex;
+ justify-content: space-between;/*use to provide space between span and div in nav*/
+ height:100px;
+ align-items: center;
+}
+nav img{
+    width: 130px;
+    position: relative;/* postion relative and z index to get popout from background image*/
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    font-family: 'martel sans',sans-serif;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    position: relative;
+    gap:23px;
+    padding:0px 30px;
+}
+.hero>:nth-child(2){
+    font-family: 'poppins',sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+.hero>:nth-child(3){
+    font-weight: 400px;
+    font-size: 24px;
+    text-align: center;
+}
+.hero>:nth-child(4){
+    text-align: center;
+    font-weight: 250;
+    font-size: 20;
+}
+.buttons{
+    background-color: rgba(248, 243, 243, 0);
+    padding:3px 8px;
+   font-weight: 400;
+    color:white;
+    border-radius: 4px;
+    border:1px solid white;
+    cursor: pointer;
+}
+.buttons-red-sm{
+    background-color: red;
+    color:white;
+}
+.buttons-red{
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+.main input{
+    padding: 7px 101px 8px 14px;
+    color:white;
+    background-color: black;
+    font-size: 12px;
+    border-radius: 6px;
+    border:1px solid rgba(246,238,238,0.5);
+}
+.seperarion{
+    height:7px;
+    background-color: rgb(46,44,44);
+    position: relative;
+    z-index: 20;
+}
+.first{
+    display:flex;
+    max-width:70vw;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+}
+.secimage{
+    position: relative;
+}
+.secimage img{
+    width:555px;
+    position: relative;
+    z-index: 10;
+}
+.secimage video{
+    width:555px;
+    top:51px;
+    right:0px;
+    position:absolute;
+    
+
+}
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding:34px 0px;
+    
+}
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.first>div:nth-child(2){
+    font-size: 24px;
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.faqbox svg{
+    color:white;
+}
+
+
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+footer .questions {
+    padding: 34px 0;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
